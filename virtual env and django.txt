@@ -1,0 +1,28 @@
+VIRTUAL ENV CREATION AND ACTIVATION
+
+mkdir btre_project
+cd btre_project
+code .(to open in visual code)
+
+pip freeze
+
+#CREATION OF VIRTUAL ENV IN THE SAME DIRECTORY
+python -m venv ./venv
+
+In Scripts activate.bat file
+
+#ACTIVATION
+./venv/Scripts/activate.bat
+
+____________________________________________________________________________________________________________
+
+DJANGO INSTALL
+
+First enter into virtual env then
+
+pip install django
+
+#TO MAKE A DJANGO PROJECT
+
+django-admin (gives all the commands)
+django-admin startproject btre . (. means current directory)
